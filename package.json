@@ -37,6 +37,7 @@
   ],
   "scripts": {
     "build": "unbuild",
+    "turbo-build": "turbo run build",
     "dev": "unbuild --stub",
     "lint": "eslint .",
     "prepublishOnly": "nr build",
